@@ -7,6 +7,7 @@ func MinList(nums []int) int {
 		return 0
 
 	}
+	min := 0
 	for i, num := range nums {
 		if i == 0 || num < min {
 			min = num
